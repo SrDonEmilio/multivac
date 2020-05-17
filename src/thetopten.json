@@ -3,19 +3,19 @@
     "site": [
       {
         "rank": "1",
-        "system-id": "179397",
-        "system-name": "Summit",
+        "systemId": "179397",
+        "systemName": "Summit",
         "manufacturer": "IBM",
         "computer": "IBM Power System AC922, IBM POWER9 22C 3.07GHz, NVIDIA Volta GV100, Dual-rail Mellanox EDR Infiniband",
-        "system-address": "http://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/",
-        "r-max": "148600000.0",
+        "systemAddress": "http://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/",
+        "rMax": "148600000.0",
         "power": "10096.0",
-        "r-peak": "200794880.0",
-        "n-max": "16473600",
-        "n-half": "0",
-        "installation-site": {
-          "installation-site-name": "DOE/SC/Oak Ridge National Laboratory",
-          "installation-site-address": "http://computing.ornl.gov",
+        "rPeak": "200794880.0",
+        "nMax": "16473600",
+        "nHalf": "0",
+        "installationSite": {
+          "installationSiteName": "DOE/SC/Oak Ridge National Laboratory",
+          "installationSiteAddress": "http://computing.ornl.gov",
           "site-id": "48553"
         },
         "town": "Oak Ridge",
@@ -25,29 +25,29 @@
         "area-of-installation": "6",
         "number-of-processors": "2414592",
         "images": {
-          "photo-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Summit_%28supercomputer%29.jpg/960px-Summit_%28supercomputer%29.jpg",
-          "photo-description": "Carlos Jones/ORNL",
-          "photo-reference": "https://www.flickr.com/photos/olcf/42957291821/in/photolist-NsW4ML-25mPCpZ-JkN2vk-28rZmfr-YYYjk1-282ZTzq-271XTpf-271XZao-26JSfsB-25mPBPa-287nqxR-FENxmy-22HVvNY-227b4AU-XgBEPE-W6iPRi-XZZrnP-28rxs9o-XqcFKR-28rZmpK-H4EmiH-27ZDEwH-26JSngB-279g4ti-25moRES-28vVuuM",
-          "logo-uel": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Summit_%28supercomputer%29_logo_2017.png/640px-Summit_%28supercomputer%29_logo_2017.png",
-          "logo-description": "The Oak Ridge Leadership Computing Facility's Summit supercomputer is the next leap in leadership-class computing systems for open science. With Summit we will be able to address, with greater complexity and higher fidelity, questions concerning who we are, our place on earth, and in our universe. Summit will deliver more than five times the computational performance of Titan’s 18,688 nodes, using only approximately 4,600 nodes when it arrives in 2018",
-          "logo-reference": "www.olcf.ornl.gov/summit/"
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Summit_%28supercomputer%29.jpg/960px-Summit_%28supercomputer%29.jpg",
+          "photoDescription": "Carlos Jones/ORNL",
+          "photoReference": "https://www.flickr.com/photos/olcf/42957291821/in/photolist-NsW4ML-25mPCpZ-JkN2vk-28rZmfr-YYYjk1-282ZTzq-271XTpf-271XZao-26JSfsB-25mPBPa-287nqxR-FENxmy-22HVvNY-227b4AU-XgBEPE-W6iPRi-XZZrnP-28rxs9o-XqcFKR-28rZmpK-H4EmiH-27ZDEwH-26JSngB-279g4ti-25moRES-28vVuuM",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Summit_%28supercomputer%29_logo_2017.png/640px-Summit_%28supercomputer%29_logo_2017.png",
+          "logoDescription": "The Oak Ridge Leadership Computing Facility's Summit supercomputer is the next leap in leadership-class computing systems for open science. With Summit we will be able to address, with greater complexity and higher fidelity, questions concerning who we are, our place on earth, and in our universe. Summit will deliver more than five times the computational performance of Titan’s 18,688 nodes, using only approximately 4,600 nodes when it arrives in 2018",
+          "logoReference": "www.olcf.ornl.gov/summit/"
         }
       },
       {
         "rank": "2",
-        "system-id": "179398",
-        "system-name": "Sierra",
+        "systemId": "179398",
+        "systemName": "Sierra",
         "manufacturer": "IBM / NVIDIA / Mellanox",
         "computer": "IBM Power System AC922, IBM POWER9 22C 3.1GHz, NVIDIA Volta GV100, Dual-rail Mellanox EDR Infiniband",
-        "system-address": "https://hpc.llnl.gov/hardware/platforms/sierra",
-        "r-max": "94640000.0",
+        "systemAddress": "https://hpc.llnl.gov/hardware/platforms/sierra",
+        "rMax": "94640000.0",
         "power": "7438.3",
-        "r-peak": "125712000.0",
-        "n-max": "11902464",
-        "n-half": "0",
-        "installation-site": {
-          "installation-site-name": "DOE/NNSA/LLNL",
-          "installation-site-address": "http://www.llnl.gov/",
+        "rPeak": "125712000.0",
+        "nMax": "11902464",
+        "nHalf": "0",
+        "installationSite": {
+          "installationSiteName": "DOE/NNSA/LLNL",
+          "installationSiteAddress": "http://www.llnl.gov/",
           "site-id": "49763"
         },
         "town": "Livermore",
@@ -57,29 +57,29 @@
         "area-of-installation": "6",
         "number-of-processors": "1572480",
         "images" : {
-          "photo-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sierra_Supercomputer_%2848002385338%29.jpg/1024px-Sierra_Supercomputer_%2848002385338%29.jpg",
-          "photo-description": "AT LLNL, THE SIERRA SUPERCOMPUTER WILL BE A 125-petaFLOPS (FLOATING POINT OPERATION PER SECOND) PEAK PERFORMANCE MACHINE, PROJECTED TO PROVIDE FOUR TO SIX SUSTAINED PERFORMANCE OF THE LAB’S CURRENT WORKHORSE SYSTEM SEQUOIA. IT ROSE OUT OF DOE’S COLLABORATION OF OAK RIDGE, ARGONNE, AND LIVERMORE (CORAL) PARTNERSHIP, WHICH IS CULMINATING IN THE DELIVERY OF LARGE- SCALE, HIGH PERFORMANCE SUPERCOMPUTERS AT EACH OF THE THREE NATIONAL LABORATORIES. IT WILL FEATURE TWO IBM POWER 9 PROCESSORS AND 4 NVIDIA VOLTA GPUs PER NODE. POWER 9s WILL PROVIDE A LARGE AMOUNT OF MEMORY BANDWIDTH FROM THE CHIPS TO SIERRA’S DDR4 MAIN MEMORY AND THE LAB’S WORKLOAD WILL BENEFIT FROM THE USE OF SECOND-GENERATION NVLINK, FORMING A HIGH-SPEED CONNECTION BETWEEN THE CPUs AND GPUs. For more information or additional images: (202) 586-5251 EnergyTechnologyVisualsCollectionETVC@hq.doe.gov",
-          "photo-reference": "www.flickr.com/photos/departmentofenergy/collections/7215",
-          "logo-uel" : "",
-          "logo-description" : "",
-          "logo-reference" : ""
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sierra_Supercomputer_%2848002385338%29.jpg/1024px-Sierra_Supercomputer_%2848002385338%29.jpg",
+          "photoDescription": "AT LLNL, THE SIERRA SUPERCOMPUTER WILL BE A 125-petaFLOPS (FLOATING POINT OPERATION PER SECOND) PEAK PERFORMANCE MACHINE, PROJECTED TO PROVIDE FOUR TO SIX SUSTAINED PERFORMANCE OF THE LAB’S CURRENT WORKHORSE SYSTEM SEQUOIA. IT ROSE OUT OF DOE’S COLLABORATION OF OAK RIDGE, ARGONNE, AND LIVERMORE (CORAL) PARTNERSHIP, WHICH IS CULMINATING IN THE DELIVERY OF LARGE- SCALE, HIGH PERFORMANCE SUPERCOMPUTERS AT EACH OF THE THREE NATIONAL LABORATORIES. IT WILL FEATURE TWO IBM POWER 9 PROCESSORS AND 4 NVIDIA VOLTA GPUs PER NODE. POWER 9s WILL PROVIDE A LARGE AMOUNT OF MEMORY BANDWIDTH FROM THE CHIPS TO SIERRA’S DDR4 MAIN MEMORY AND THE LAB’S WORKLOAD WILL BENEFIT FROM THE USE OF SECOND-GENERATION NVLINK, FORMING A HIGH-SPEED CONNECTION BETWEEN THE CPUs AND GPUs. For more information or additional images: (202) 586-5251 EnergyTechnologyVisualsCollectionETVC@hq.doe.gov",
+          "photoReference": "https://www.flickr.com/photos/departmentofenergy/collections/7215",
+          "logoUrl" : "",
+          "logoDescription" : "",
+          "logoReference" : ""
         }
       },
       {
         "rank": "3",
-        "system-id": "178764",
-        "system-name": "Sunway TaihuLight",
+        "systemId": "178764",
+        "systemName": "Sunway TaihuLight",
         "manufacturer": "NRCPC",
         "computer": "Sunway MPP, Sunway SW26010 260C 1.45GHz, Sunway",
-        "system-address": "",
-        "r-max": "93014593.9",
+        "systemAddress": "",
+        "rMax": "93014593.9",
         "power": "15371.0",
-        "r-peak": "125435904.0",
-        "n-max": "12288000",
-        "n-half": "0",
-        "installation-site": {
-          "installation-site-name": "National Supercomputing Center in Wuxi",
-          "installation-site-address": "http://www.nsccwx.cn/",
+        "rPeak": "125435904.0",
+        "nMax": "12288000",
+        "nHalf": "0",
+        "installationSite": {
+          "installationSiteName": "National Supercomputing Center in Wuxi",
+          "installationSiteAddress": "http://www.nsccwx.cn/",
           "site-id": "50623"
         },
         "town": "Wuxi",
@@ -89,29 +89,29 @@
         "area-of-installation": "6",
         "number-of-processors": "10649600",
         "images" : {
-          "photo-url": "https://www.top500.org/static//featured/TaihuLight.jpg",
-          "photo-description": "",
-          "photo-reference": "https://www.top500.org/resources/top-systems/sunway-taihulight-national-supercomputing-center-i/",
-          "logo-uel" : "",
-          "logo-description" : "",
-          "logo-reference" : ""
+          "photoUrl": "https://www.top500.org/static//featured/TaihuLight.jpg",
+          "photoDescription": "TheTop500.org ",
+          "photoReference": "https://www.top500.org/resources/top-systems/sunway-taihulight-national-supercomputing-center-i/",
+          "logoUrl" : "",
+          "logoDescription" : "",
+          "logoReference" : ""
         }
       },
       {
         "rank": "4",
-        "system-id": "177999",
-        "system-name": "Tianhe-2A",
+        "systemId": "177999",
+        "systemName": "Tianhe-2A",
         "manufacturer": "NUDT",
         "computer": "TH-IVB-FEP Cluster, Intel Xeon E5-2692v2 12C 2.2GHz, TH Express-2, Matrix-2000",
-        "system-address": "",
-        "r-max": "61444500.0",
+        "systemAddress": "",
+        "rMax": "61444500.0",
         "power": "18482.0",
-        "r-peak": "100678664.0",
-        "n-max": "9773000",
-        "n-half": "0",
-        "installation-site": {
-          "installation-site-name": "National Super Computer Center in Guangzhou",
-          "installation-site-address": "",
+        "rPeak": "100678664.0",
+        "nMax": "9773000",
+        "nHalf": "0",
+        "installationSite": {
+          "installationSiteName": "National Super Computer Center in Guangzhou",
+          "installationSiteAddress": "",
           "site-id": "50365"
         },
         "town": "Guangzhou",
@@ -121,29 +121,29 @@
         "area-of-installation": "6",
         "number-of-processors": "4981760",
         "images" : {
-          "photo-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Tianhe-2.jpg/1024px-Tianhe-2.jpg",
-          "photo-description": "O01326",
-          "photo-reference": "https://commons.wikimedia.org/wiki/User:O01326",
-          "logo-uel" : "",
-          "logo-description" : "",
-          "logo-reference" : ""
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Tianhe-2.jpg/1024px-Tianhe-2.jpg",
+          "photoDescription": "O01326",
+          "photoReference": "https://commons.wikimedia.org/wiki/User:O01326",
+          "logoUrl" : "",
+          "logoDescription" : "",
+          "logoReference" : ""
         }
       },
       {
         "rank": "5",
-        "system-id": "179607",
-        "system-name": "Frontera",
+        "systemId": "179607",
+        "systemName": "Frontera",
         "manufacturer": "Dell EMC",
         "computer": "Dell C6420, Xeon Platinum 8280 28C 2.7GHz, Mellanox InfiniBand HDR",
-        "system-address": "",
-        "r-max": "23516400.0",
+        "systemAddress": "",
+        "rMax": "23516400.0",
         "power": "",
-        "r-peak": "38745907.0",
-        "n-max": "9262848",
-        "n-half": "0",
-        "installation-site": {
-          "installation-site-name": "Texas Advanced Computing Center/Univ. of Texas",
-          "installation-site-address": "http://www.tacc.utexas.edu/",
+        "rPeak": "38745907.0",
+        "nMax": "9262848",
+        "nHalf": "0",
+        "installationSite": {
+          "installationSiteName": "Texas Advanced Computing Center/Univ. of Texas",
+          "installationSiteAddress": "http://www.tacc.utexas.edu/",
           "site-id": "48958"
         },
         "town": "Austin",
@@ -153,29 +153,29 @@
         "area-of-installation": "1",
         "number-of-processors": "448448",
         "images" : {
-          "photo-url": "https://www.tacc.utexas.edu/image/journal/article?img_id=1747246&t=1560793176497",
-          "photo-description": "A view between two rows of Frontera servers in the TACC data center. TACC",
-          "photo-reference": "https://www.tacc.utexas.edu/-/frontera-named-5th-fastest-supercomputer-in-the-world",
-          "logo-uel" : "",
-          "logo-description" : "",
-          "logo-reference" : ""
+          "photoUrl": "https://www.tacc.utexas.edu/image/journal/article?img_id=1747246&t=1560793176497",
+          "photoDescription": "A view between two rows of Frontera servers in the TACC data center. TACC",
+          "photoReference": "https://www.tacc.utexas.edu/-/frontera-named-5th-fastest-supercomputer-in-the-world",
+          "logoUrl" : "",
+          "logoDescription" : "",
+          "logoReference" : ""
         }
       },
       {
         "rank": "6",
-        "system-id": "177824",
-        "system-name": "Piz Daint",
+        "systemId": "177824",
+        "systemName": "Piz Daint",
         "manufacturer": "Cray/HPE",
         "computer": "Cray XC50, Xeon E5-2690v3 12C 2.6GHz, Aries interconnect , NVIDIA Tesla P100",
-        "system-address": "http://www.cscs.ch/computers/piz_daint_piz_dora/index.html",
-        "r-max": "21230000.0",
+        "systemAddress": "http://www.cscs.ch/computers/piz_daint_piz_dora/index.html",
+        "rMax": "21230000.0",
         "power": "2384.2",
-        "r-peak": "27154300.0",
-        "n-max": "3743232",
-        "n-half": "0",
-        "installation-site": {
-          "installation-site-name": "Swiss National Supercomputing Centre (CSCS)",
-          "installation-site-address": "",
+        "rPeak": "27154300.0",
+        "nMax": "3743232",
+        "nHalf": "0",
+        "installationSite": {
+          "installationSiteName": "Swiss National Supercomputing Centre (CSCS)",
+          "installationSiteAddress": "",
           "site-id": "50422"
         },
         "town": "Lugano",
@@ -185,29 +185,29 @@
         "area-of-installation": "6",
         "number-of-processors": "387872",
         "images" : {
-          "photo-url": "https://www.cscs.ch/fileadmin/_processed_/c/3/csm_Piz_Daint_upgrade_26.04.2017_003_ec93735bd1.jpg",
-          "photo-description": "Centro Svizzero di Calcolo Scientifico",
-          "photo-reference": "https://www.cscs.ch/computers/piz-daint/",
-          "logo-uel" : "",
-          "logo-description" : "",
-          "logo-reference" : ""
+          "photoUrl": "https://www.cscs.ch/fileadmin/_processed_/c/3/csm_Piz_Daint_upgrade_26.04.2017_003_ec93735bd1.jpg",
+          "photoDescription": "Centro Svizzero di Calcolo Scientifico",
+          "photoReference": "https://www.cscs.ch/computers/piz-daint/",
+          "logoUrl" : "",
+          "logoDescription" : "",
+          "logoReference" : ""
         }
       },
       {
         "rank": "7",
-        "system-id": "178610",
-        "system-name": "Trinity",
+        "systemId": "178610",
+        "systemName": "Trinity",
         "manufacturer": "Cray/HPE",
         "computer": "Cray XC40, Xeon E5-2698v3 16C 2.3GHz, Intel Xeon Phi 7250 68C 1.4GHz, Aries interconnect",
-        "system-address": "",
-        "r-max": "20158700.0",
+        "systemAddress": "",
+        "rMax": "20158700.0",
         "power": "7578.1",
-        "r-peak": "41461150.0",
-        "n-max": "12353536",
-        "n-half": "0",
-        "installation-site": {
-          "installation-site-name": "DOE/NNSA/LANL/SNL",
-          "installation-site-address": "http://www.lanl.gov/",
+        "rPeak": "41461150.0",
+        "nMax": "12353536",
+        "nHalf": "0",
+        "installationSite": {
+          "installationSiteName": "DOE/NNSA/LANL/SNL",
+          "installationSiteAddress": "http://www.lanl.gov/",
           "site-id": "50334"
         },
         "town": "Los Alamos",
@@ -217,29 +217,29 @@
         "area-of-installation": "6",
         "number-of-processors": "979072",
         "images" : {
-          "photo-url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Trinity_%28supercomputer%29.jpg",
-          "photo-description": "Los Alamos National Laboratory",
-          "photo-reference": "https://lanl.gov/projects/trinity",
-          "logo-uel" : "",
-          "logo-description" : "",
-          "logo-reference" : ""
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Trinity_%28supercomputer%29.jpg",
+          "photoDescription": "Los Alamos National Laboratory",
+          "photoReference": "https://lanl.gov/projects/trinity",
+          "logoUrl" : "",
+          "logoDescription" : "",
+          "logoReference" : ""
         }
       },
       {
         "rank": "8",
-        "system-id": "179393",
-        "system-name": "AI Bridging Cloud Infrastructure (ABCI)",
+        "systemId": "179393",
+        "systemName": "AI Bridging Cloud Infrastructure (ABCI)",
         "manufacturer": "Fujitsu",
         "computer": "PRIMERGY CX2570 M4, Xeon Gold 6148 20C 2.4GHz, NVIDIA Tesla V100 SXM2, Infiniband EDR",
-        "system-address": "http://abci.ai/",
-        "r-max": "19880000.0",
+        "systemAddress": "http://abci.ai/",
+        "rMax": "19880000.0",
         "power": "1649.2",
-        "r-peak": "32576634.9",
-        "n-max": "2918016",
-        "n-half": "0",
-        "installation-site": {
-          "installation-site-name": "National Institute of Advanced Industrial Science and Technology (AIST)",
-          "installation-site-address": "http://www.aist.go.jp/index_en.html",
+        "rPeak": "32576634.9",
+        "nMax": "2918016",
+        "nHalf": "0",
+        "installationSite": {
+          "installationSiteName": "National Institute of Advanced Industrial Science and Technology (AIST)",
+          "installationSiteAddress": "http://www.aist.go.jp/index_en.html",
           "site-id": "50762"
         },
         "town": "Kashiwa",
@@ -249,29 +249,29 @@
         "area-of-installation": "6",
         "number-of-processors": "391680",
         "images" : {
-          "photo-url": "https://ogawa.github.io/assets/img/abci.jpg",
-          "photo-description": "Hirotaka Ogawa",
-          "photo-reference": "https://ogawa.github.io/abci/",
-          "logo-uel" : "",
-          "logo-description" : "",
-          "logo-reference" : ""
+          "photoUrl": "https://ogawa.github.io/assets/img/abci.jpg",
+          "photoDescription": "Hirotaka Ogawa",
+          "photoReference": "https://ogawa.github.io/abci/",
+          "logoUrl" : "",
+          "logoDescription" : "",
+          "logoReference" : ""
         }
       },
       {
         "rank": "9",
-        "system-id": "179566",
-        "system-name": "SuperMUC-NG",
+        "systemId": "179566",
+        "systemName": "SuperMUC-NG",
         "manufacturer": "Lenovo",
         "computer": "ThinkSystem SD650, Xeon Platinum 8174 24C 3.1GHz, Intel Omni-Path",
-        "system-address": "https://www.lrz.de/services/compute/supermuc/supermuc-ng/",
-        "r-max": "19476600.0",
+        "systemAddress": "https://www.lrz.de/services/compute/supermuc/supermuc-ng/",
+        "rMax": "19476600.0",
         "power": "",
-        "r-peak": "26873856.0",
-        "n-max": "8402688",
-        "n-half": "0",
-        "installation-site": {
-          "installation-site-name": "Leibniz Rechenzentrum",
-          "installation-site-address": "http://www.lrz.de/",
+        "rPeak": "26873856.0",
+        "nMax": "8402688",
+        "nHalf": "0",
+        "installationSite": {
+          "installationSiteName": "Leibniz Rechenzentrum",
+          "installationSiteAddress": "http://www.lrz.de/",
           "site-id": "48248"
         },
         "town": "Muenchen",
@@ -281,29 +281,29 @@
         "area-of-installation": "1",
         "number-of-processors": "305856",
         "images" : {
-          "photo-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/SuperMUC.jpg/1024px-SuperMUC.jpg",
-          "photo-description": "Wikimedia Commons",
-          "photo-reference": "https://commons.wikimedia.org/wiki/File:SuperMUC.jpg",
-          "logo-uel" : "",
-          "logo-description" : "",
-          "logo-reference" : ""
+          "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/SuperMUC.jpg/1024px-SuperMUC.jpg",
+          "photoDescription": "Wikimedia Commons",
+          "photoReference": "https://commons.wikimedia.org/wiki/File:SuperMUC.jpg",
+          "logoUrl" : "",
+          "logoDescription" : "",
+          "logoReference" : ""
         }
       },
       {
         "rank": "10",
-        "system-id": "179567",
-        "system-name": "Lassen",
+        "systemId": "179567",
+        "systemName": "Lassen",
         "manufacturer": "IBM / NVIDIA / Mellanox",
         "computer": "IBM Power System AC922, IBM POWER9 22C 3.1GHz, Dual-rail Mellanox EDR Infiniband, NVIDIA Tesla V100",
-        "system-address": "",
-        "r-max": "18200000.0",
+        "systemAddress": "",
+        "rMax": "18200000.0",
         "power": "",
-        "r-peak": "23047200.0",
-        "n-max": "5059584",
-        "n-half": "0",
-        "installation-site": {
-          "installation-site-name": "DOE/NNSA/LLNL",
-          "installation-site-address": "http://www.llnl.gov/",
+        "rPeak": "23047200.0",
+        "nMax": "5059584",
+        "nHalf": "0",
+        "installationSite": {
+          "installationSiteName": "DOE/NNSA/LLNL",
+          "installationSiteAddress": "http://www.llnl.gov/",
           "site-id": "49763"
         },
         "town": "Livermore",
@@ -313,12 +313,12 @@
         "area-of-installation": "6",
         "number-of-processors": "288288",
         "images" : {
-          "photo-url": "https://hpc.llnl.gov/sites/default/files/lassen_A2A2318.png",
-          "photo-description": "Lawrence Livermore National Laboratory",
-          "photo-reference": "https://hpc.llnl.gov/hardware/platforms/lassen",
-          "logo-uel" : "",
-          "logo-description" : "",
-          "logo-reference" : ""
+          "photoUrl": "https://hpc.llnl.gov/sites/default/files/lassen_A2A2318.png",
+          "photoDescription": "Lawrence Livermore National Laboratory",
+          "photoReference": "https://hpc.llnl.gov/hardware/platforms/lassen",
+          "logoUrl" : "",
+          "logoDescription" : "",
+          "logoReference" : ""
         }
       }
     ],
