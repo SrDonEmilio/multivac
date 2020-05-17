@@ -23,7 +23,15 @@
         "country": "United States",
         "year": "2018",
         "area-of-installation": "6",
-        "number-of-processors": "2414592"
+        "number-of-processors": "2414592",
+        "images": {
+          "photo-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Summit_%28supercomputer%29.jpg/960px-Summit_%28supercomputer%29.jpg",
+          "photo-description": "Carlos Jones/ORNL",
+          "photo-reference": "https://www.flickr.com/photos/olcf/42957291821/in/photolist-NsW4ML-25mPCpZ-JkN2vk-28rZmfr-YYYjk1-282ZTzq-271XTpf-271XZao-26JSfsB-25mPBPa-287nqxR-FENxmy-22HVvNY-227b4AU-XgBEPE-W6iPRi-XZZrnP-28rxs9o-XqcFKR-28rZmpK-H4EmiH-27ZDEwH-26JSngB-279g4ti-25moRES-28vVuuM",
+          "logo-uel": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Summit_%28supercomputer%29_logo_2017.png/640px-Summit_%28supercomputer%29_logo_2017.png",
+          "logo-description": "The Oak Ridge Leadership Computing Facility's Summit supercomputer is the next leap in leadership-class computing systems for open science. With Summit we will be able to address, with greater complexity and higher fidelity, questions concerning who we are, our place on earth, and in our universe. Summit will deliver more than five times the computational performance of Titan’s 18,688 nodes, using only approximately 4,600 nodes when it arrives in 2018",
+          "logo-reference": "www.olcf.ornl.gov/summit/"
+        }
       },
       {
         "rank": "2",
@@ -47,7 +55,15 @@
         "country": "United States",
         "year": "2018",
         "area-of-installation": "6",
-        "number-of-processors": "1572480"
+        "number-of-processors": "1572480",
+        "images" : {
+          "photo-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sierra_Supercomputer_%2848002385338%29.jpg/1024px-Sierra_Supercomputer_%2848002385338%29.jpg",
+          "photo-description": "AT LLNL, THE SIERRA SUPERCOMPUTER WILL BE A 125-petaFLOPS (FLOATING POINT OPERATION PER SECOND) PEAK PERFORMANCE MACHINE, PROJECTED TO PROVIDE FOUR TO SIX SUSTAINED PERFORMANCE OF THE LAB’S CURRENT WORKHORSE SYSTEM SEQUOIA. IT ROSE OUT OF DOE’S COLLABORATION OF OAK RIDGE, ARGONNE, AND LIVERMORE (CORAL) PARTNERSHIP, WHICH IS CULMINATING IN THE DELIVERY OF LARGE- SCALE, HIGH PERFORMANCE SUPERCOMPUTERS AT EACH OF THE THREE NATIONAL LABORATORIES. IT WILL FEATURE TWO IBM POWER 9 PROCESSORS AND 4 NVIDIA VOLTA GPUs PER NODE. POWER 9s WILL PROVIDE A LARGE AMOUNT OF MEMORY BANDWIDTH FROM THE CHIPS TO SIERRA’S DDR4 MAIN MEMORY AND THE LAB’S WORKLOAD WILL BENEFIT FROM THE USE OF SECOND-GENERATION NVLINK, FORMING A HIGH-SPEED CONNECTION BETWEEN THE CPUs AND GPUs. For more information or additional images: (202) 586-5251 EnergyTechnologyVisualsCollectionETVC@hq.doe.gov",
+          "photo-reference": "www.flickr.com/photos/departmentofenergy/collections/7215",
+          "logo-uel" : "",
+          "logo-description" : "",
+          "logo-reference" : ""
+        }
       },
       {
         "rank": "3",
@@ -55,7 +71,7 @@
         "system-name": "Sunway TaihuLight",
         "manufacturer": "NRCPC",
         "computer": "Sunway MPP, Sunway SW26010 260C 1.45GHz, Sunway",
-        "system-address": {},
+        "system-address": "",
         "r-max": "93014593.9",
         "power": "15371.0",
         "r-peak": "125435904.0",
@@ -71,7 +87,15 @@
         "country": "China",
         "year": "2016",
         "area-of-installation": "6",
-        "number-of-processors": "10649600"
+        "number-of-processors": "10649600",
+        "images" : {
+          "photo-url": "https://www.top500.org/static//featured/TaihuLight.jpg",
+          "photo-description": "",
+          "photo-reference": "https://www.top500.org/resources/top-systems/sunway-taihulight-national-supercomputing-center-i/",
+          "logo-uel" : "",
+          "logo-description" : "",
+          "logo-reference" : ""
+        }
       },
       {
         "rank": "4",
@@ -79,7 +103,7 @@
         "system-name": "Tianhe-2A",
         "manufacturer": "NUDT",
         "computer": "TH-IVB-FEP Cluster, Intel Xeon E5-2692v2 12C 2.2GHz, TH Express-2, Matrix-2000",
-        "system-address": {},
+        "system-address": "",
         "r-max": "61444500.0",
         "power": "18482.0",
         "r-peak": "100678664.0",
@@ -87,7 +111,7 @@
         "n-half": "0",
         "installation-site": {
           "installation-site-name": "National Super Computer Center in Guangzhou",
-          "installation-site-address": {},
+          "installation-site-address": "",
           "site-id": "50365"
         },
         "town": "Guangzhou",
@@ -95,7 +119,15 @@
         "country": "China",
         "year": "2018",
         "area-of-installation": "6",
-        "number-of-processors": "4981760"
+        "number-of-processors": "4981760",
+        "images" : {
+          "photo-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Tianhe-2.jpg/1024px-Tianhe-2.jpg",
+          "photo-description": "O01326",
+          "photo-reference": "https://commons.wikimedia.org/wiki/User:O01326",
+          "logo-uel" : "",
+          "logo-description" : "",
+          "logo-reference" : ""
+        }
       },
       {
         "rank": "5",
@@ -103,9 +135,9 @@
         "system-name": "Frontera",
         "manufacturer": "Dell EMC",
         "computer": "Dell C6420, Xeon Platinum 8280 28C 2.7GHz, Mellanox InfiniBand HDR",
-        "system-address": {},
+        "system-address": "",
         "r-max": "23516400.0",
-        "power": {},
+        "power": "",
         "r-peak": "38745907.0",
         "n-max": "9262848",
         "n-half": "0",
@@ -119,7 +151,15 @@
         "country": "United States",
         "year": "2019",
         "area-of-installation": "1",
-        "number-of-processors": "448448"
+        "number-of-processors": "448448",
+        "images" : {
+          "photo-url": "https://www.tacc.utexas.edu/image/journal/article?img_id=1747246&t=1560793176497",
+          "photo-description": "A view between two rows of Frontera servers in the TACC data center. TACC",
+          "photo-reference": "https://www.tacc.utexas.edu/-/frontera-named-5th-fastest-supercomputer-in-the-world",
+          "logo-uel" : "",
+          "logo-description" : "",
+          "logo-reference" : ""
+        }
       },
       {
         "rank": "6",
@@ -135,7 +175,7 @@
         "n-half": "0",
         "installation-site": {
           "installation-site-name": "Swiss National Supercomputing Centre (CSCS)",
-          "installation-site-address": {},
+          "installation-site-address": "",
           "site-id": "50422"
         },
         "town": "Lugano",
@@ -143,7 +183,15 @@
         "country": "Switzerland",
         "year": "2017",
         "area-of-installation": "6",
-        "number-of-processors": "387872"
+        "number-of-processors": "387872",
+        "images" : {
+          "photo-url": "https://www.cscs.ch/fileadmin/_processed_/c/3/csm_Piz_Daint_upgrade_26.04.2017_003_ec93735bd1.jpg",
+          "photo-description": "Centro Svizzero di Calcolo Scientifico",
+          "photo-reference": "https://www.cscs.ch/computers/piz-daint/",
+          "logo-uel" : "",
+          "logo-description" : "",
+          "logo-reference" : ""
+        }
       },
       {
         "rank": "7",
@@ -151,7 +199,7 @@
         "system-name": "Trinity",
         "manufacturer": "Cray/HPE",
         "computer": "Cray XC40, Xeon E5-2698v3 16C 2.3GHz, Intel Xeon Phi 7250 68C 1.4GHz, Aries interconnect",
-        "system-address": {},
+        "system-address": "",
         "r-max": "20158700.0",
         "power": "7578.1",
         "r-peak": "41461150.0",
@@ -167,7 +215,15 @@
         "country": "United States",
         "year": "2017",
         "area-of-installation": "6",
-        "number-of-processors": "979072"
+        "number-of-processors": "979072",
+        "images" : {
+          "photo-url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Trinity_%28supercomputer%29.jpg",
+          "photo-description": "Los Alamos National Laboratory",
+          "photo-reference": "https://lanl.gov/projects/trinity",
+          "logo-uel" : "",
+          "logo-description" : "",
+          "logo-reference" : ""
+        }
       },
       {
         "rank": "8",
@@ -191,7 +247,15 @@
         "country": "Japan",
         "year": "2018",
         "area-of-installation": "6",
-        "number-of-processors": "391680"
+        "number-of-processors": "391680",
+        "images" : {
+          "photo-url": "https://ogawa.github.io/assets/img/abci.jpg",
+          "photo-description": "Hirotaka Ogawa",
+          "photo-reference": "https://ogawa.github.io/abci/",
+          "logo-uel" : "",
+          "logo-description" : "",
+          "logo-reference" : ""
+        }
       },
       {
         "rank": "9",
@@ -201,7 +265,7 @@
         "computer": "ThinkSystem SD650, Xeon Platinum 8174 24C 3.1GHz, Intel Omni-Path",
         "system-address": "https://www.lrz.de/services/compute/supermuc/supermuc-ng/",
         "r-max": "19476600.0",
-        "power": {},
+        "power": "",
         "r-peak": "26873856.0",
         "n-max": "8402688",
         "n-half": "0",
@@ -215,7 +279,15 @@
         "country": "Germany",
         "year": "2018",
         "area-of-installation": "1",
-        "number-of-processors": "305856"
+        "number-of-processors": "305856",
+        "images" : {
+          "photo-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/SuperMUC.jpg/1024px-SuperMUC.jpg",
+          "photo-description": "Wikimedia Commons",
+          "photo-reference": "https://commons.wikimedia.org/wiki/File:SuperMUC.jpg",
+          "logo-uel" : "",
+          "logo-description" : "",
+          "logo-reference" : ""
+        }
       },
       {
         "rank": "10",
@@ -223,9 +295,9 @@
         "system-name": "Lassen",
         "manufacturer": "IBM / NVIDIA / Mellanox",
         "computer": "IBM Power System AC922, IBM POWER9 22C 3.1GHz, Dual-rail Mellanox EDR Infiniband, NVIDIA Tesla V100",
-        "system-address": {},
+        "system-address": "",
         "r-max": "18200000.0",
-        "power": {},
+        "power": "",
         "r-peak": "23047200.0",
         "n-max": "5059584",
         "n-half": "0",
@@ -239,7 +311,15 @@
         "country": "United States",
         "year": "2018",
         "area-of-installation": "6",
-        "number-of-processors": "288288"
+        "number-of-processors": "288288",
+        "images" : {
+          "photo-url": "https://hpc.llnl.gov/sites/default/files/lassen_A2A2318.png",
+          "photo-description": "Lawrence Livermore National Laboratory",
+          "photo-reference": "https://hpc.llnl.gov/hardware/platforms/lassen",
+          "logo-uel" : "",
+          "logo-description" : "",
+          "logo-reference" : ""
+        }
       }
     ],
     "xmlns:top500": "http://www.top500.org/xml/top500/1.0",
