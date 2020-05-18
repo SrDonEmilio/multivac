@@ -28,9 +28,6 @@
           "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Summit_%28supercomputer%29.jpg/960px-Summit_%28supercomputer%29.jpg",
           "photoDescription": "Carlos Jones/ORNL",
           "photoReference": "https://www.flickr.com/photos/olcf/42957291821/in/photolist-NsW4ML-25mPCpZ-JkN2vk-28rZmfr-YYYjk1-282ZTzq-271XTpf-271XZao-26JSfsB-25mPBPa-287nqxR-FENxmy-22HVvNY-227b4AU-XgBEPE-W6iPRi-XZZrnP-28rxs9o-XqcFKR-28rZmpK-H4EmiH-27ZDEwH-26JSngB-279g4ti-25moRES-28vVuuM",
-          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Summit_%28supercomputer%29_logo_2017.png/640px-Summit_%28supercomputer%29_logo_2017.png",
-          "logoDescription": "The Oak Ridge Leadership Computing Facility's Summit supercomputer is the next leap in leadership-class computing systems for open science. With Summit we will be able to address, with greater complexity and higher fidelity, questions concerning who we are, our place on earth, and in our universe. Summit will deliver more than five times the computational performance of Titan’s 18,688 nodes, using only approximately 4,600 nodes when it arrives in 2018",
-          "logoReference": "www.olcf.ornl.gov/summit/"
         }
       },
       {
@@ -59,10 +56,7 @@
         "images" : {
           "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sierra_Supercomputer_%2848002385338%29.jpg/1024px-Sierra_Supercomputer_%2848002385338%29.jpg",
           "photoDescription": "AT LLNL, THE SIERRA SUPERCOMPUTER WILL BE A 125-petaFLOPS (FLOATING POINT OPERATION PER SECOND) PEAK PERFORMANCE MACHINE, PROJECTED TO PROVIDE FOUR TO SIX SUSTAINED PERFORMANCE OF THE LAB’S CURRENT WORKHORSE SYSTEM SEQUOIA. IT ROSE OUT OF DOE’S COLLABORATION OF OAK RIDGE, ARGONNE, AND LIVERMORE (CORAL) PARTNERSHIP, WHICH IS CULMINATING IN THE DELIVERY OF LARGE- SCALE, HIGH PERFORMANCE SUPERCOMPUTERS AT EACH OF THE THREE NATIONAL LABORATORIES. IT WILL FEATURE TWO IBM POWER 9 PROCESSORS AND 4 NVIDIA VOLTA GPUs PER NODE. POWER 9s WILL PROVIDE A LARGE AMOUNT OF MEMORY BANDWIDTH FROM THE CHIPS TO SIERRA’S DDR4 MAIN MEMORY AND THE LAB’S WORKLOAD WILL BENEFIT FROM THE USE OF SECOND-GENERATION NVLINK, FORMING A HIGH-SPEED CONNECTION BETWEEN THE CPUs AND GPUs. For more information or additional images: (202) 586-5251 EnergyTechnologyVisualsCollectionETVC@hq.doe.gov",
-          "photoReference": "https://www.flickr.com/photos/departmentofenergy/collections/7215",
-          "logoUrl" : "",
-          "logoDescription" : "",
-          "logoReference" : ""
+          "photoReference": "https://www.flickr.com/photos/departmentofenergy/collections/7215"
         }
       },
       {
@@ -91,10 +85,7 @@
         "images" : {
           "photoUrl": "https://www.top500.org/static//featured/TaihuLight.jpg",
           "photoDescription": "TheTop500.org ",
-          "photoReference": "https://www.top500.org/resources/top-systems/sunway-taihulight-national-supercomputing-center-i/",
-          "logoUrl" : "",
-          "logoDescription" : "",
-          "logoReference" : ""
+          "photoReference": "https://www.top500.org/resources/top-systems/sunway-taihulight-national-supercomputing-center-i/"
         }
       },
       {
@@ -123,10 +114,7 @@
         "images" : {
           "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Tianhe-2.jpg/1024px-Tianhe-2.jpg",
           "photoDescription": "O01326",
-          "photoReference": "https://commons.wikimedia.org/wiki/User:O01326",
-          "logoUrl" : "",
-          "logoDescription" : "",
-          "logoReference" : ""
+          "photoReference": "https://commons.wikimedia.org/wiki/User:O01326"
         }
       },
       {
@@ -155,10 +143,7 @@
         "images" : {
           "photoUrl": "https://www.tacc.utexas.edu/image/journal/article?img_id=1747246&t=1560793176497",
           "photoDescription": "A view between two rows of Frontera servers in the TACC data center. TACC",
-          "photoReference": "https://www.tacc.utexas.edu/-/frontera-named-5th-fastest-supercomputer-in-the-world",
-          "logoUrl" : "",
-          "logoDescription" : "",
-          "logoReference" : ""
+          "photoReference": "https://www.tacc.utexas.edu/-/frontera-named-5th-fastest-supercomputer-in-the-world"
         }
       },
       {
@@ -187,10 +172,7 @@
         "images" : {
           "photoUrl": "https://www.cscs.ch/fileadmin/_processed_/c/3/csm_Piz_Daint_upgrade_26.04.2017_003_ec93735bd1.jpg",
           "photoDescription": "Centro Svizzero di Calcolo Scientifico",
-          "photoReference": "https://www.cscs.ch/computers/piz-daint/",
-          "logoUrl" : "",
-          "logoDescription" : "",
-          "logoReference" : ""
+          "photoReference": "https://www.cscs.ch/computers/piz-daint/"
         }
       },
       {
@@ -219,10 +201,7 @@
         "images" : {
           "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Trinity_%28supercomputer%29.jpg",
           "photoDescription": "Los Alamos National Laboratory",
-          "photoReference": "https://lanl.gov/projects/trinity",
-          "logoUrl" : "",
-          "logoDescription" : "",
-          "logoReference" : ""
+          "photoReference": "https://lanl.gov/projects/trinity"
         }
       },
       {
@@ -251,10 +230,7 @@
         "images" : {
           "photoUrl": "https://ogawa.github.io/assets/img/abci.jpg",
           "photoDescription": "Hirotaka Ogawa",
-          "photoReference": "https://ogawa.github.io/abci/",
-          "logoUrl" : "",
-          "logoDescription" : "",
-          "logoReference" : ""
+          "photoReference": "https://ogawa.github.io/abci/"
         }
       },
       {
@@ -283,10 +259,7 @@
         "images" : {
           "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/SuperMUC.jpg/1024px-SuperMUC.jpg",
           "photoDescription": "Wikimedia Commons",
-          "photoReference": "https://commons.wikimedia.org/wiki/File:SuperMUC.jpg",
-          "logoUrl" : "",
-          "logoDescription" : "",
-          "logoReference" : ""
+          "photoReference": "https://commons.wikimedia.org/wiki/File:SuperMUC.jpg"
         }
       },
       {
@@ -315,10 +288,7 @@
         "images" : {
           "photoUrl": "https://hpc.llnl.gov/sites/default/files/lassen_A2A2318.png",
           "photoDescription": "Lawrence Livermore National Laboratory",
-          "photoReference": "https://hpc.llnl.gov/hardware/platforms/lassen",
-          "logoUrl" : "",
-          "logoDescription" : "",
-          "logoReference" : ""
+          "photoReference": "https://hpc.llnl.gov/hardware/platforms/lassen"
         }
       }
     ],
