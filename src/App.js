@@ -22,7 +22,7 @@ class App extends Component {
     const { data } = this.state;
     return (
       <div id="container">
-        <h1>Supercomputers</h1>
+        <h1>Ranking List <br/>Supercomputers</h1>
         <div id="computers">
           {Object.values(data).map((data,) => {
             return <Computer data={data} key={data.rank}/>;
