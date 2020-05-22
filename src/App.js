@@ -3,7 +3,7 @@ import Computer from "./containers/Computer";
 
 import Data from "./thetopten.json";
 
-import './App.css'
+import "./App.css";
 
 class App extends Component {
   constructor() {
@@ -22,11 +22,15 @@ class App extends Component {
     const { data } = this.state;
     return (
       <div id="container">
-        <h1>Ranking List <br/>Supercomputers</h1>
+        <header>
+          <h1>Ranking List Supercomputers</h1>
+        </header>
         <div id="computers">
-          {Object.values(data).map((data,) => {
-            return <Computer data={data} key={data.rank}/>;
+          {Object.values(data).map((data) => {
+            return <Computer data={data} key={data.rank} />;
           })}
+        </div>
+        <div className="description-container">
         </div>
       </div>
     );

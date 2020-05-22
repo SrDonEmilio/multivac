@@ -1,18 +1,19 @@
 import React from "react";
 
-function Computer({ data }) {
+const Computer = ({ data }) => {
   return (
     <div className="computer-container" id={data.rank}>
       <div className="info-container">
-        <div className="image-container">
-          <img
-            className="img-supercomputer"
-            src={data.images.photoUrl}
-            alt={data.systemName}
-          />
-        </div>
-        <h2>{data.systemName}</h2>
+        <div
+          className="image-container"
+          style={{ backgroundImage: "url(" + data.images.photoUrl + ")" }}
+        ></div>
+        <div className="title">
         <div className="rank">{data.rank}</div>
+          <div className="computer-name">
+            <h2>{data.systemName}</h2>
+          </div>
+        </div>
         <span>{data.computer}</span>
       </div>
       <div className="description-container">
