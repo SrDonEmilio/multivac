@@ -1,40 +1,31 @@
-import React, { Component } from "react";
-import Computer from "./containers/Computer";
-
-import Data from "./thetopten.json";
-
+import React, { useState, useEffect } from "react";
+import Loading from "./containers/Loading";
+import Computers from "./containers/Computers";
 import "./App.css";
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      data: [],
+import DataComputers from "./thetopten.json";
+const App = () => {
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const getData = async () => {
+      setData(DataComputers.list.site);
+      setLoading(false);
     };
-  }
+    getData();
+  }, []);
 
-  async componentDidMount() {
-    const dataJSON = { Data };
-    this.setState({ data: dataJSON.Data.list.site });
-  }
+  if (loading) return <Loading />;
 
-  render() {
-    const { data } = this.state;
-    return (
-      <div id="container">
-        <header>
-          <h1>Ranking List Supercomputers</h1>
-        </header>
-        <div id="computers">
-          {Object.values(data).map((data) => {
-            return <Computer data={data} key={data.rank} />;
-          })}
-        </div>
-        <div className="description-container">
-        </div>
-      </div>
-    );
-  }
-}
+  return (
+    <div id="container">
+      <header>
+        <h1>Ranking List Supercomputers</h1>
+      </header>
+      <Computers data={data} />
+    </div>
+  );
+};
 
 export default App;
