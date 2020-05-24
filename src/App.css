@@ -108,13 +108,21 @@ img.img-supercomputer {
 }
 #return-button {
   cursor: pointer;
-  width: min-content;
   display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #545454;
+  text-align: center;
+  line-height: 39px;
+  border-radius: 100px;
 }
 #description-name {
-  display: inline-block;
-  text-align: center;
-  margin-left: 20px;
+  text-align: left;
+  margin-left: 50px;
+  width: 90%;
+  position: relative;
+  font-size: 30px;
 }
 #description-container p {
   font-size: 16px;
@@ -136,4 +144,10 @@ img.img-supercomputer {
 }
 #legal a {
   color: #a2a2a2;
+}
+@media screen and (max-width: 769px) {
+  #description-container {
+    width: 100%;
+    height: 85vh;
+  }
 }
