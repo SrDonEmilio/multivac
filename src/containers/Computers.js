@@ -3,11 +3,11 @@ import Description from "./Description";
 import Computer from "../components/Computer";
 
 const Computers = ({ data }) => {
-  const [description, setDescription] = useState([]);
+  const [computerDescription, setComputerDescription] = useState([]);
   const [openDescription, setOpenDescription] = useState(null);
 
   const activateDescription = (event) => {
-    setDescription(event);
+    setComputerDescription(event);
     setOpenDescription("active");
   };
 
@@ -49,8 +49,9 @@ const Computers = ({ data }) => {
       </div>
       <Description
         className={openDescription}
-        description={description}
+        computerData={computerDescription}
         changeClass={(e) => toggleOpen()}
+        openStatus={openDescription}
       />
     </>
   );

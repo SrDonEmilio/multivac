@@ -1,7 +1,7 @@
 import React from "react";
 
 const Computer = ({ data, passData }) => {
-  const description = [data.systemName, data.manufacturer, data.rMax, data.countryID];
+  const description = data;
   const clickMe = (description) => {
     passData(description)
   }

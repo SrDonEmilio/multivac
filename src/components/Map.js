@@ -1,36 +1,89 @@
 import React, { Component, useState, useEffect } from "react";
 import * as am4core from "@amcharts/amcharts4/core";
 import * as am4maps from "@amcharts/amcharts4/maps";
+import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 
 export const StaticMap = ({ country }) => {
   const [image, setImage] = useState();
-  let countryID
-  if(country !== undefined){
-    countryID = country.toLowerCase()
+  let countryID;
+  if (country !== undefined) {
+    countryID = country.toLowerCase();
   }
   useEffect(() => {
     setImage(countryID);
-  },[country, countryID, image]);
-  return <div>Country: <img src={"//www.amcharts.com/wp-content/uploads/assets/flags/" + image +  ".svg"} alt={country} /></div>;
+  }, [country, countryID, image]);
+
+  const imageFlag = () => {
+    if (country !== undefined) {
+      return (
+        <img
+          src={
+            "//www.amcharts.com/wp-content/uploads/assets/flags/" +
+            image +
+            ".svg"
+          }
+          alt={country}
+        />
+      );
+    } else {
+      return <div></div>
+    }
+  };
+  return <div>{imageFlag()}</div>;
 };
 
 export class DynamicMap extends Component {
   constructor(props) {
     super(props);
     this.availableCountries = this.props.country;
+    this.selectedPolygon = undefined;
+    this.mapChart = undefined;
+    this.flagContainer = undefined;
   }
   componentDidMount() {
+    am4core.useTheme(am4themes_animated);
+
     let selectedPolygon;
-    let userCountryId;
-    let mapChart;
     let continentsSeries;
     let countriesSeries;
     let chart;
+    let mapChart;
     let flagContainer;
     let flag;
     let countryName;
 
     // FUNCTIONS
+    const init = () => {
+      // INIT MAP
+      chart = am4core.create("chartdiv", am4maps.MapChart);
+      chart.paddingRight = 20;
+      chart.background.fillOpacity = 1;
+      chart.background.fill = am4core.color("#3c3c3c");
+      chart.width = am4core.percent(100);
+      chart.height = am4core.percent(100);
+      chart.preloader.disabled = true;
+
+      flagContainer = chart.createChild(am4core.Container);
+      this.flagContainer = flagContainer;
+      flagContainer.horizontalCenter = "middle";
+      flagContainer.hiddenState.properties.dy = -180;
+      flagContainer.x = am4core.percent(50);
+      flagContainer.y = 30;
+      flagContainer.layout = "horizontal";
+
+      flag = flagContainer.createChild(am4core.Image);
+      flag.width = 50;
+      flag.height = 50;
+
+      countryName = flagContainer.createChild(am4core.Label);
+      countryName.marginLeft = 15;
+      countryName.fontSize = 25;
+      countryName.x = 100;
+      countryName.valign = "middle";
+      countryName.fill = am4core.color("#ffffff");
+
+      createMap();
+    };
     const createMap = () => {
       // MAP CHART
       mapChart = chart.createChild(am4maps.MapChart);
@@ -55,6 +108,7 @@ export class DynamicMap extends Component {
       continentsSeries.toBack();
 
       countriesSeries = mapChart.series.push(new am4maps.MapPolygonSeries());
+      this.countriesSeries = countriesSeries;
       countriesSeries.useGeodata = true;
       countriesSeries.exclude = ["AQ"];
       countriesSeries.mapPolygons.template.visible = false;
@@ -64,31 +118,32 @@ export class DynamicMap extends Component {
         "//www.amcharts.com/wp-content/uploads/assets/maps/worldCustomHigh.json";
       countriesSeries.mapPolygons.template.fill = am4core.color("#0975da");
       countriesSeries.mapPolygons.template.strokeOpacity = 0;
+
+      countriesSeries.geodataSource.events.on("ended", function () {
+        console.log("loaded");
+      });
+
+      this.mapChart = mapChart;
     };
 
-    const launchData = (string) => {
+    const launchData = () => {
       setTimeout(() => {
-        handleNext(string);
+        handleNext();
       }, 500);
     };
 
-    const handleNext = (string) => {
+    const handleNext = () => {
       flagContainer.hide(1000);
-
-      if (this.availableCountries.indexOf(string) === -1) {
-        userCountryId = this.availableCountries;
-      }
-      userCountryId = this.availableCountries;
-
-      zoomToSelectedPolygon(userCountryId);
+      zoomToSelectedPolygon(this.availableCountries);
     };
 
-    const zoomToSelectedPolygon = (countryIDDD) => {
+    const zoomToSelectedPolygon = (countryID) => {
       if (selectedPolygon) {
         selectedPolygon.hide();
       }
 
-      selectedPolygon = countriesSeries.getPolygonById(countryIDDD);
+      selectedPolygon = countriesSeries.getPolygonById(countryID);
+      this.selectedPolygon = selectedPolygon;
       selectedPolygon.hide(0);
       selectedPolygon.opacity = 0;
       selectedPolygon.defaultState.properties.opacity = 1;
@@ -99,7 +154,7 @@ export class DynamicMap extends Component {
       showAnimation.events.on("animationended", () => {
         flag.href =
           "//www.amcharts.com/wp-content/uploads/assets/flags/" +
-          userCountryId.toLowerCase() +
+          this.availableCountries.toLowerCase() +
           ".svg";
         countryName.text = selectedPolygon.dataItem.dataContext.name;
 
@@ -152,7 +207,6 @@ export class DynamicMap extends Component {
             true,
             1500
           );
-          //selectedPolygon.polygon.points;
           selectedPolygon.polygon.morpher.morphToSingle = true;
           let animation;
           if (points) {
@@ -166,37 +220,6 @@ export class DynamicMap extends Component {
           animation.stop();
         });
       });
-    };
-
-    const init = () => {
-      // INIT MAP
-      chart = am4core.create("chartdiv", am4maps.MapChart);
-      chart.paddingRight = 20;
-      chart.background.fillOpacity = 1;
-      chart.background.fill = am4core.color("#3c3c3c");
-      chart.width = am4core.percent(100);
-      chart.height = am4core.percent(100);
-      chart.preloader.disabled = true;
-
-      flagContainer = chart.createChild(am4core.Container);
-      flagContainer.horizontalCenter = "middle";
-      flagContainer.hiddenState.properties.dy = -180;
-      flagContainer.x = am4core.percent(50);
-      flagContainer.y = 30;
-      flagContainer.layout = "horizontal";
-
-      flag = flagContainer.createChild(am4core.Image);
-      flag.width = 50;
-      flag.height = 50;
-
-      countryName = flagContainer.createChild(am4core.Label);
-      countryName.marginLeft = 15;
-      countryName.fontSize = 25;
-      countryName.x = 100;
-      countryName.valign = "middle";
-      countryName.fill = am4core.color("#ffffff");
-
-      createMap();
     };
 
     this.chart = chart;
@@ -214,8 +237,14 @@ export class DynamicMap extends Component {
   componentDidUpdate(oldProps) {
     if (oldProps.country !== this.props.country) {
       this.availableCountries = this.props.country;
-      console.log(this.availableCountries);
-      this.launchData(this.availableCountries);
+      this.launchData();
+    } else if (this.props.openStatus !== null) {
+      this.launchData();
+    }
+    if (this.props.openStatus === null && this.availableCountries) {
+      this.mapChart.goHome();
+      this.flagContainer.hide(1000);
+      this.selectedPolygon.hide(1000);
     }
   }
 
