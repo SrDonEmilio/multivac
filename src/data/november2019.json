@@ -1,5 +1,7 @@
 {
   "list": {
+    "authors": "Martin Meuer, Erich Strohmaier, Jack Dongarra, Horst D. Simon",
+    "date": "2019/11/18",
     "site": [
       {
         "rank": "1",
@@ -301,9 +303,6 @@
           "photoReference": "https://hpc.llnl.gov/hardware/platforms/lassen"
         }
       }
-    ],
-    "xmlns:top500": "http://www.top500.org/xml/top500/1.0",
-    "authors": "Martin Meuer, Erich Strohmaier, Jack Dongarra, Horst D. Simon",
-    "date": "2019/11/18"
+    ]
   }
 }

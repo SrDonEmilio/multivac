@@ -1,5 +1,7 @@
 import React from "react";
-import { DynamicMap, StaticMap } from "../components/Map";
+import { DynamicMap, StaticMap } from "../../components/Map/Map";
+
+import "./Description.sass";
 
 const Description = ({ computerData, className, changeClass, openStatus }) => {
   const toggleClass = () => {
@@ -25,19 +27,33 @@ const Description = ({ computerData, className, changeClass, openStatus }) => {
         <div id="return-button" onClick={(e) => toggleClass()}>
           {"<"}
         </div>
-        <div id="description-name">{computerData.systemName}</div>
+        <div id="description-name">
+          <h2>{computerData.systemName}</h2>
+        </div>
       </div>
       <div id="description-data">
-        <p>Computer {computerData.computer}</p>
-        <p>Manufacturer: {computerData.manufacturer}</p>
-        <p>Number of Processors {computerData.numberOfProcessors}</p>
-        {loadMap(computerData.countryID, openStatus)}
-        <p>Country: {computerData.country}</p>
         <p>
-          State/Town: {computerData.town}, {computerData.state}
+          <span>Computer:</span> {computerData.computer}
         </p>
-        <p>Year of installation: {computerData.year}</p>
-        <p>r-Max: {computerData.rMax}</p>
+        <p>
+          <span>Manufacturer:</span> {computerData.manufacturer}
+        </p>
+        <p>
+          <span>Number of Processors:</span> {computerData.numberOfProcessors}
+        </p>
+        {loadMap(computerData.countryID, openStatus)}
+        <p>
+          <span>Country:</span> {computerData.country}
+        </p>
+        <p>
+          <span>State/Town:</span> {computerData.town}, {computerData.state}
+        </p>
+        <p>
+          <span>Year of installation:</span> {computerData.year}
+        </p>
+        <p>
+          <span>r-Max:</span> {computerData.rMax}
+        </p>
       </div>
     </div>
   );

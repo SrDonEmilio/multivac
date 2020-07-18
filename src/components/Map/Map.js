@@ -26,7 +26,7 @@ export const StaticMap = ({ country }) => {
         />
       );
     } else {
-      return <div></div>
+      return <div></div>;
     }
   };
   return <div>{imageFlag()}</div>;
@@ -120,7 +120,7 @@ export class DynamicMap extends Component {
       countriesSeries.mapPolygons.template.strokeOpacity = 0;
 
       countriesSeries.geodataSource.events.on("ended", function () {
-        console.log("loaded");
+        //console.log("loaded");
       });
 
       this.mapChart = mapChart;
