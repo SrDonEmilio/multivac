@@ -3,17 +3,14 @@ import React from "react";
 import "./Computer.sass";
 import logo from "../../img/logo.png";
 
-const Computer = ({ data, passData }) => {
-  const description = data;
-  //const photo = data.images.photoUrl !== undefined ? data.images.photoUrl : logo
-  const clickMe = (description) => {
-    passData(description);
-  };
+const Computer = ({ computerData, onClick }) => {
+  //const photo = computerData.images.photoUrl !== undefined ? computerData.images.photoUrl : logo
+  
   return (
     <div
       className="computer-container"
-      id={"rank-" + data.rank}
-      onClick={(e) => clickMe(description)}
+      id={"rank-" + computerData.rank}
+      onClick={() => onClick()}
     >
       <div className="info-container">
         {
@@ -23,12 +20,12 @@ const Computer = ({ data, passData }) => {
           ></div>
         }
         <div className="title">
-          <div className="rank">{data.rank}</div>
+          <div className="rank">{computerData.rank}</div>
           <div className="computer-name">
-            <h2>{data.systemName}</h2>
+            <h2>{computerData.systemName}</h2>
           </div>
         </div>
-        <p>{data.manufacturer}</p>
+        <p>{computerData.manufacturer}</p>
       </div>
     </div>
   );

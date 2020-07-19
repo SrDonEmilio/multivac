@@ -8,8 +8,8 @@ const Computers = ({ data }) => {
   const [computerDescription, setComputerDescription] = useState([]);
   const [openDescription, setOpenDescription] = useState(null);
 
-  const activateDescription = (event) => {
-    setComputerDescription(event);
+  const activateDescription = (data) => {
+    setComputerDescription(data);
     setOpenDescription("active");
   };
 
@@ -19,13 +19,13 @@ const Computers = ({ data }) => {
 
   return (
     <>
-      <div id="computers" onClick={(e) => toggleOpen()}>
+      <div id="computers">
         {Object.values(data).map((data) => {
           return (
             <Computer
-              data={data}
+              computerData={data}
               key={data.rank}
-              passData={(event) => activateDescription(event)}
+              onClick={() => activateDescription(data)}
             />
           );
         })}

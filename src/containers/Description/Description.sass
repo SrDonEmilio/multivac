@@ -1,25 +1,37 @@
 #description-container
-  font-size: 10px
-  color: #8c8c8c
-  margin-top: 10px
-  position: fixed
-  width: 75%
-  height: 75vh
-  bottom: 0
-  left: 50%
-  transform: translateX(-50%)
-  box-shadow: 3px 0 #00000050
-  background-color: #3c3c3c
-  border-radius: 25px 25px 0 0
+  width: 100vw
+  height: 100vh
+  left: 0
   bottom: -100%
+  font-size: 10px
+  position: fixed
+  display: flex
+  justify-content: center
+  align-content: center
   transition: 0.4s
-  z-index: 1
 
   &.active
     bottom: 0%
 
-  & > div
-    margin: 25px
+  #inactive-area
+    width: 100vw
+    height: 100vh
+    position: absolute
+
+  #description-area
+    color: #8c8c8c
+    width: 75%
+    height: 75vh
+    z-index: 1
+    box-shadow: 3px 0 #00000050
+    background-color: #3c3c3c
+    border-radius: 25px 25px 0 0
+    position: absolute
+    bottom: 0
+    margin: 0
+
+    & > div
+      margin: 25px
 
   a
     color: inherit
