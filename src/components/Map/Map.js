@@ -203,7 +203,7 @@ export class DynamicMap extends Component {
           mapChart.zoomEasing = am4core.ease.cubicInOut;
           mapChart.zoomToMapObject(
             selectedPolygon,
-            (400 / Math.max(w, h)) * mapChart.scaleRatio,
+            (200 / Math.max(w, h)) * mapChart.scaleRatio,
             true,
             1500
           );
@@ -251,7 +251,7 @@ export class DynamicMap extends Component {
   render() {
     return (
       <>
-        <div id="chartdiv" style={{ width: "70%", height: "300px" }}></div>
+        <div id="chartdiv" style={{ width: "100%", height: "230px" }}></div>
       </>
     );
   }

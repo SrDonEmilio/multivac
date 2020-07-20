@@ -34,28 +34,38 @@ const Description = ({ computerData, className, changeClass, openStatus }) => {
           </div>
         </div>
         <div id="description-data">
-          <p>
-            <span>Computer:</span> {computerData.computer}
-          </p>
-          <p>
-            <span>Manufacturer:</span> {computerData.manufacturer}
-          </p>
-          <p>
-            <span>Number of Processors:</span> {computerData.numberOfProcessors}
-          </p>
-          {loadMap(computerData.countryID, openStatus)}
-          <p>
-            <span>Country:</span> {computerData.country}
-          </p>
-          <p>
-            <span>State/Town:</span> {computerData.town}, {computerData.state}
-          </p>
-          <p>
-            <span>Year of installation:</span> {computerData.year}
-          </p>
-          <p>
-            <span>r-Max:</span> {computerData.rMax}
-          </p>
+          <div class="description-content" id="description-text">
+            <p>
+              <span>Computer:</span> {computerData.computer}
+            </p>
+            <p>
+              <span>Manufacturer:</span> {computerData.manufacturer}
+            </p>
+            <p>
+              <span>Cores:</span> {computerData.numberOfProcessors}
+            </p>
+            <p>
+              <span>Year of installation:</span> {computerData.year}
+            </p>
+            <p>
+              <span>Rmax (TFlop/s):</span> {computerData.rMax}
+            </p>
+            <p>
+              <span>Rpeak (TFlop/s):</span> {computerData.rPeak}
+            </p>
+            <p>
+              <span>Power (kW):</span> {computerData.rPeak}
+            </p>
+          </div>
+          <div class="description-content" id="description-map">
+            {loadMap(computerData.countryID, openStatus)}
+            <p>
+              <span>Country:</span> {computerData.country}
+            </p>
+            <p>
+              <span>State/Town:</span> {computerData.town}, {computerData.state}
+            </p>
+          </div>
         </div>
       </div>
     </div>
