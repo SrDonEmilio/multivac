@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^12.7.1",
     "gridjs": "^3.3.0",
     "gridjs-react": "^3.2.2",
-    "immer": "^8.0.1",
+    "immer": "^9.0.6",
     "node-sass": "^5.0.0",
     "normalize.css": "^8.0.1",
     "object-path": "0.11.5",
