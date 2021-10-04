@@ -6,7 +6,7 @@ import "normalize.css";
 import './fonts/fonts.scss'
 import "./App.sass";
 
-import DataComputers from "./data/june2020.json";
+import DataComputers from "./data/june2021.json";
 
 import logo from "./img/logo-horizontal.png";
 
@@ -16,7 +16,7 @@ const App = () => {
 
   useEffect(() => {
     const getData = async () => {
-      setData(DataComputers.list.site);
+      setData(DataComputers);
       setLoading(false);
     };
     getData();
